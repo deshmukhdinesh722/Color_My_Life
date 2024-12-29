@@ -20,7 +20,7 @@ mongoose.connect('mongodb+srv://dineshdeshmukh168:TLkJuIiOWznaNHdy@cluster0.fff7
     
 }) 
 
-const allowedOrigins = ['https://color-my-life-8.onrender.com'] // Add your frontend URL
+const allowedOrigins = ['https://color-my-life-bd2c.onrender.com'] // Add your frontend URL
 
 app.use(cors({
     origin: allowedOrigins,
