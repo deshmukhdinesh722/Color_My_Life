@@ -47,7 +47,6 @@ function App() {
   return (
       <>
           <div>
-              <h1>Jay Shree Ram</h1>
               <Routes>
                   <Route path="/auth" element={
                       <CheckAuth isAuthenticated={isAuthenticated} user={user}>
